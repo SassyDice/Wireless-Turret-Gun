@@ -1,6 +1,5 @@
 # Wireless Turret Gun
- Turret prototype that can be controlled both via computer and android with BT module. If you want to use the ready '.exe' file of LFK, you can download it from here: https://www.littlefrenchkev.com/bluetooth-nerf-turret
- All the necessary explanations are available in the files.
+ Turret prototype that can be controlled both via computer and android with BT module. If you want to use the ready '.exe' file of LFK, you can download it from https://www.littlefrenchkev.com/bluetooth-nerf-turret here. All the necessary explanations are available in the files.
 # *
 # *
 # Kablosuz Taret Silahı
