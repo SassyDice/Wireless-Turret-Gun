@@ -1,0 +1,110 @@
+%\RequirePackage{snapshot}
+%\documentclass[draft]{erciyes}
+\documentclass{erciyes}
+\usepackage{etex}
+\usepackage[lined,algonl,boxed,commentsnumbered]{algorithm2e}
+\usepackage[usenames]{color}
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage{graphicx,color,psfrag}
+\usepackage{enumerate}
+\usepackage{rotating}
+\usepackage{cite}
+\usepackage{psfrag}
+\usepackage{pstricks, pst-plot, pst-grad, pstricks-add}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{faktor}
+\usepackage{lscape}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{ctable}
+\usepackage{float}
+\usepackage{afterpage}
+\usepackage{lineno} 
+\usepackage{subfigure} 
+\usepackage{epstopdf}
+
+\usepackage[utf8x]{inputenc} 
+%\usepackage{algorithm2e}
+\usepackage{algorithmic}
+%\usepackage{algorithmicx}
+%\usepackage{algpseudocode}
+\usepackage{setspace}
+\usepackage{longtable}
+\usetikzlibrary{positioning,shapes,shadows,arrows}
+\usepackage{calrsfs}  
+\DeclareMathAlphabet{\pazocal}{OMS}{zplm}{m}{n} 
+\newcommand{\La}{\mathcal{L}} 
+\newcommand{\Lb}{\pazocal{L}} 
+\usepackage{array} 
+%\newcommand{\lorem}{Komut tanımlama.}
+\usepackage{tablefootnote}  
+
+\usepackage{caption}
+
+\usepackage{amsmath} 
+
+\numberwithin{algocf}{chapter}  
+
+
+\MSc  %% Yüksek Lisans 
+%%\PhD %% Doktora
+\fen %% Fen Bilimleri
+
+\ToCLineisDotted %% İçindekiler kısmında sayfa numaralarına kadar olan kısım noktalı olsun
+\ToCChapterBold  %% İçindekiler kısmında BÖLÜM 1-2... yazıları bold olsun.
+\TabloListesiYok %% Tablo Listesi kullanılmayacak
+%\SekilListesiYok %% Şekil Listesi kullanılmayacak
+
+\setlength{\fboxsep}{0pt}
+
+\input{defination.tex}
+
+\renewcommand{\textfraction}{0.10}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\floatpagefraction}{0.35}
+
+\setcounter{totalnumber}{5}
+
+
+\makeatletter  
+\renewcommand{\algorithmcfname}{Algoritma}% Update algorithm name
+\makeatother
+
+
+
+\giris{	\input{giris.tex}}
+ 
+\begin{document}	
+\input{calismatakvimi.tex} %ÇalışmaTakvimi
+\input{chapter1.tex} 
+\input{section1.1.tex}
+\input{section1.2.tex}
+\input{section1.3.tex}
+\input{section1.4.tex}
+\input{section1.5.tex}
+\input{chapter2.tex} 
+\input{section2.1.tex}
+\input{section2.2.tex}
+\input{chapter3.tex} 
+\input{chapter4.tex} 
+\input{section4.1.tex}
+\input{chapter5.tex} 
+\input{section5.1.tex} 
+\input{chapter6.tex} 
+\input{chapter7.tex}  
+\input{sonuc1.tex} 
+\input{sonuc2.tex} 
+\input{kaynakca.tex} 
+
+\bibliographystyle{erciyesfbe} %% References style filename 
+%\bibliography{referanslar}	 
+%\appendix
+%\input{ek2.tex}
+
+\input{ekler.tex} 
+
+\end{document}
