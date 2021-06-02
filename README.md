@@ -3,4 +3,4 @@
 # *
 # *
 # Kablosuz Taret Silahı
- BT modulü ile hem bilgisayar hemde android üzerinden kontrol edilebilen taret prototipi. LFK'nin hazır '.exe' dosyasını kullanmak istiyorsanız LFK'nın sayfasından indirebilirsiniz. Gerekli tüm açıklamalar dosyalarda mevcuttur.
+ BT modulü ile hem bilgisayar hemde android üzerinden kontrol edilebilen taret prototipi. LFK'nin hazır '.exe' dosyasını kullanmak istiyorsanız LFK'nın sayfasından indirebilirsiniz. Gerekli tüm açıklamalar dosyalarda mevcuttur
